@@ -1,0 +1,23 @@
+
+public class Multiplebelow 
+{
+
+	public static void main(String[] args) throws java.io.IOException
+	{
+		// TODO Auto-generated method stub
+
+		
+		for(int i=0; i<5; i++);
+		{
+			for(int j=0; j<=5; j++);
+			{
+				System.out.print("*");
+				
+			}	
+			System.out.println();
+		}
+			
+		
+	}
+
+}
