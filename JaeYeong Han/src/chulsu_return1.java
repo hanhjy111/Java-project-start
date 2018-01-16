@@ -6,11 +6,12 @@ public class chulsu_return1
 
 	public static void main(String[] args) 
 	{
-		 static void chulsu1()
-		 {
-		  System.out.println("Ã¶¼ö¾ß ³ª°¡¼­ ³î¾Æ¶ó~!");
-		 }
-
 	}
+	static void chulsu1()
+	{
+		 System.out.println("Ã¶¼ö¾ß ³ª°¡¼­ ³î¾Æ¶ó~!");
+	}
+
+	
 
 }

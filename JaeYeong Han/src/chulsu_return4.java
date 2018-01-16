@@ -8,10 +8,11 @@ public class chulsu_return4
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
-
+	
+	
 	String buggerName = chulsu4(10000);
 	System.out.println("철수야"+buggerName+"잘받았어~!");
-	}  
+	} 
 	 static String chulsu4(int money)
 	 {
 	  System.out.println("철수야 "+money+"원 줄테니 햄버거좀 사다줘");

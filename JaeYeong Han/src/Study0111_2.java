@@ -26,8 +26,7 @@ public class Study0111_2
   }
   for(int i = 0; i < 3; i++)
   {
-   System.out.println(i+1+"¹ø : "+
-      info[i][0]+" / "+info[i][1]+" / " +
+   System.out.println(i+1 + "¹ø : " + info[i][0]+" / " + info[i][1] + " / " +
       info[i][2]);
   }
 

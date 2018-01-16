@@ -4,7 +4,8 @@
 //  chulsu3("диюм");
 public class chulsu_return3 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		// TODO Auto-generated method stub
 
 	}
@@ -17,3 +18,6 @@ public class chulsu_return3 {
 	 }
 
 }
+
+
+  
