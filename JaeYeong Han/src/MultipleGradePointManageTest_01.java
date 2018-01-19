@@ -25,10 +25,10 @@ public class MultipleGradePointManageTest_01
 				}
 				while(subject[m][n] < 0 || subject[m][n] > 100);
 
-				subject[m][3] += subject[m][n];
+				subject[m][subject[m].length - 2] += subject[m][n];
 			}
-			subject[m][4] = 1;
-			avg[m] = subject[m][3] / (float)subjectName.length;
+			subject[m][subject[m].length - 1] = 1;
+			avg[m] = subject[m][subject[m].length - 2] / (float)subjectName.length;
 		}
 
 		for(int m = 0; m <subject.length; m++)
