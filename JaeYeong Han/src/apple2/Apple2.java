@@ -1,22 +1,22 @@
-package apple;
+package apple2;
 
-public class Apple {
+public class Apple2 {
 	public static void main(String[] args) {
 		
-		Buyer cat1 = new Buyer(10000, 0, "»õ¿ì±ø");
-		Buyer cat2 = new Buyer(5000, 0, "¶¥Äá");
-		Seller sel = new Seller(); 
+		Buyer2 cat1 = new Buyer2(10000, 0, "»õ¿ì±ø");
+		Buyer2 cat2 = new Buyer2(5000, 0, "¶¥Äá");
+		//Seller sell = new Seller(); 
 		
-		sel.showSeller();
+		Seller2.showSeller();
 		System.out.println();
 		cat1.showBuyer();
 		cat2.showBuyer();
 		
-		cat1.buy(sel);
-		cat2.buy(sel);
+		cat1.buy();
+		cat2.buy();
 		System.out.println("----------------------------------");
 		
-		sel.showSeller();
+		Seller2.showSeller();
 		System.out.println();
 		cat1.showBuyer();
 		cat2.showBuyer();
